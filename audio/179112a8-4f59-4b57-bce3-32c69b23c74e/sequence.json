@@ -1,0 +1,992 @@
+{
+  "duration": 507,
+  "loop": false,
+  "outPoints": [],
+  "objects": [
+    {
+      "objectId": "2-Realitas_Phone",
+      "objectBehaviours": [
+        {
+          "behaviourType": "spread",
+          "behaviourParameters": {
+            "enableGainCompensation": false
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceCurrentNumber",
+                "operator": "modulo",
+                "value": [
+                  4,
+                  2
+                ],
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 80.64,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000000/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000000/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 82.65,
+          "duration": 74.73,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000001/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000001/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 165.89,
+          "duration": 3.75,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000002.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 171.7,
+          "duration": 0.77,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000003.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 181.45,
+          "duration": 0.73,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000004.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 188.11,
+          "duration": 6.86,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000005.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 197.95,
+          "duration": 0.39,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000006.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 203.58,
+          "duration": 0.85,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000007.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 207.51,
+          "duration": 3.32,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000008.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 213.9,
+          "duration": 5.13,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000009.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 223.45,
+          "duration": 2.35,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000010.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 237.15,
+          "duration": 29.54,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000011/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000011/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 271.82,
+          "duration": 0.79,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000012.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 277.5,
+          "duration": 0.79,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000013.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 281.75,
+          "duration": 74.33,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000014/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000014/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 358.45,
+          "duration": 10.88,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000015/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000015/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 376.45,
+          "duration": 6.75,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000016.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 389.11,
+          "duration": 1.49,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000017.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 403.57,
+          "duration": 8.15,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000018.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 412.87,
+          "duration": 73.1,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000019/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/2_Realitas_Phone_000019/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "3-Realitas_Phone",
+      "objectBehaviours": [
+        {
+          "behaviourType": "spread",
+          "behaviourParameters": {
+            "enableGainCompensation": false
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceCurrentNumber",
+                "operator": "modulo",
+                "value": [
+                  4,
+                  3
+                ],
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 80.4,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/3_Realitas_Phone_000000/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/3_Realitas_Phone_000000/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 83.02,
+          "duration": 75.45,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/3_Realitas_Phone_000001/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/3_Realitas_Phone_000001/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 165.93,
+          "duration": 3.71,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/3_Realitas_Phone_000002.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 171.7,
+          "duration": 0.77,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/3_Realitas_Phone_000003.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 181.45,
+          "duration": 0.72,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/3_Realitas_Phone_000004.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 188.11,
+          "duration": 6.86,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/3_Realitas_Phone_000005.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 197.95,
+          "duration": 0.39,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/3_Realitas_Phone_000006.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 203.58,
+          "duration": 0.85,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/3_Realitas_Phone_000007.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 207.51,
+          "duration": 3.25,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/3_Realitas_Phone_000008.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 213.91,
+          "duration": 5.09,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/3_Realitas_Phone_000009.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 223.45,
+          "duration": 2.35,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/3_Realitas_Phone_000010.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 240.81,
+          "duration": 31.8,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/3_Realitas_Phone_000011/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/3_Realitas_Phone_000011/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 277.54,
+          "duration": 0.79,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/3_Realitas_Phone_000012.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 282.35,
+          "duration": 74.08,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/3_Realitas_Phone_000013/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/3_Realitas_Phone_000013/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 358.45,
+          "duration": 10.88,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/3_Realitas_Phone_000014/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/3_Realitas_Phone_000014/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 376.45,
+          "duration": 6.79,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/3_Realitas_Phone_000015.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 389.11,
+          "duration": 1.5,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/3_Realitas_Phone_000016.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 403.45,
+          "duration": 85.06,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/3_Realitas_Phone_000017/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/3_Realitas_Phone_000017/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "4-Realitas_Phone",
+      "objectBehaviours": [
+        {
+          "behaviourType": "spread",
+          "behaviourParameters": {
+            "enableGainCompensation": false
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceCurrentNumber",
+                "operator": "modulo",
+                "value": [
+                  4,
+                  4
+                ],
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 80.55,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000000/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000000/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 82.59,
+          "duration": 57.36,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000001/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000001/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 142.48,
+          "duration": 15.59,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000002/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000002/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 165.94,
+          "duration": 3.7,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000003.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 171.7,
+          "duration": 0.77,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000004.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 181.45,
+          "duration": 0.73,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000005.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 188.11,
+          "duration": 6.86,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000006.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 197.95,
+          "duration": 0.39,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000007.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 203.58,
+          "duration": 0.85,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000008.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 207.51,
+          "duration": 3.31,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000009.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 213.9,
+          "duration": 5.12,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000010.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 223.45,
+          "duration": 2.35,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000011.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 243.77,
+          "duration": 30.35,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000012/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000012/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 277.45,
+          "duration": 0.79,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000013.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 282.2,
+          "duration": 74.28,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000014/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000014/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 358.45,
+          "duration": 10.88,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000015/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000015/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 376.45,
+          "duration": 6.73,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000016.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 389.11,
+          "duration": 1.5,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000017.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 403.45,
+          "duration": 96.11,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000018/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/4_Realitas_Phone_000018/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "5-Realitas_Phone",
+      "objectBehaviours": [
+        {
+          "behaviourType": "spread",
+          "behaviourParameters": {
+            "enableGainCompensation": false
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceCurrentNumber",
+                "operator": "modulo",
+                "value": [
+                  4,
+                  5
+                ],
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 80.1,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/5_Realitas_Phone_000000/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/5_Realitas_Phone_000000/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 83.06,
+          "duration": 74.62,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/5_Realitas_Phone_000001/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/5_Realitas_Phone_000001/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 165.91,
+          "duration": 3.72,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/5_Realitas_Phone_000002.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 171.7,
+          "duration": 0.77,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/5_Realitas_Phone_000003.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 181.45,
+          "duration": 0.73,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/5_Realitas_Phone_000004.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 188.11,
+          "duration": 6.86,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/5_Realitas_Phone_000005.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 197.95,
+          "duration": 0.39,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/5_Realitas_Phone_000006.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 203.58,
+          "duration": 0.85,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/5_Realitas_Phone_000007.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 207.51,
+          "duration": 3.29,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/5_Realitas_Phone_000008.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 213.9,
+          "duration": 5.12,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/5_Realitas_Phone_000009.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 223.45,
+          "duration": 2.35,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/5_Realitas_Phone_000010.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 238.53,
+          "duration": 30.2,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/5_Realitas_Phone_000011/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/5_Realitas_Phone_000011/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 271.82,
+          "duration": 0.79,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/5_Realitas_Phone_000012.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 277.54,
+          "duration": 0.79,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/5_Realitas_Phone_000013.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 282.12,
+          "duration": 74.7,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/5_Realitas_Phone_000014/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/5_Realitas_Phone_000014/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 358.45,
+          "duration": 10.88,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/5_Realitas_Phone_000015/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/5_Realitas_Phone_000015/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 376.45,
+          "duration": 6.79,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/5_Realitas_Phone_000016.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 389.11,
+          "duration": 1.5,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/5_Realitas_Phone_000017.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 403.45,
+          "duration": 82.57,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/5_Realitas_Phone_000018/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/5_Realitas_Phone_000018/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "6-Realitas_Main",
+      "objectBehaviours": [
+        {
+          "behaviourType": "allowedEverywhere"
+        },
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 1.71,
+          "duration": 445.72,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/6_Realitas_Main_000000/manifest.mpd",
+            "urlSafari": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/6_Realitas_Main_000000/manifest-safari.mpd"
+          }
+        }
+      ]
+    }
+  ]
+}
