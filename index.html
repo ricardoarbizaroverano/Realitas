@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bundle.css" />
+    <title>Realitas</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="bundle.js"></script>
+    <script>
+      
+      
+      
+      
+
+      // Any value specified in config.js may be overwritten here without having to rebuild the app.
+      const config = {
+  "LOCAL_SESSION_ID_PREFIX": "bbcat-orchestration-template",
+  "INITIAL_CONTENT_ID": "df928128-d143-4bad-a982-182c29589890",
+  "SEQUENCE_URLS": [
+    {
+      "name": "Realitas - Intro",
+      "contentId": "df928128-d143-4bad-a982-182c29589890",
+      "url": "audio/df928128-d143-4bad-a982-182c29589890/sequence.json",
+      "hold": false,
+      "skippable": true,
+      "instructions": false,
+      "next": [
+        {
+          "contentId": "179112a8-4f59-4b57-bce3-32c69b23c74e",
+          "label": "Next"
+        }
+      ]
+    },
+    {
+      "name": "Realitas",
+      "contentId": "179112a8-4f59-4b57-bce3-32c69b23c74e",
+      "url": "audio/179112a8-4f59-4b57-bce3-32c69b23c74e/sequence.json",
+      "hold": false,
+      "skippable": false,
+      "instructions": false,
+      "next": []
+    }
+  ],
+  "CONTROLS": [],
+  "CLOUDSYNC_ENDPOINT": {
+    "hostname": "cloudsync.virt.ch.bbc.co.uk"
+  },
+  "TEXT_TITLE": "Realitas",
+  "TEXT_SUBTITLE": "by Ricardo Arbiza",
+  "TEXT_INTRODUCTION": "Immersive piece for bass trombone, Smute, audience phones, and sound system.",
+  "TEXT_START_LABEL": "Start new session",
+  "TEXT_JOIN_LABEL": "Join existing session (Audience)",
+  "ACCENT_COLOUR": "#000050",
+  "DEBUG_UI": true,
+  "ENABLE_TUTORIAL": false,
+  "MDO_COMPRESSOR_RATIO": 2,
+  "MDO_COMPRESSOR_THRESHOLD": 0,
+  "OBJECT_FADE_OUT_DURATION": 0,
+  "PLAYER_IMAGE_URL": "images/e1a2ec9b-e084-40e2-b661-3e8a164435c9.png",
+  "TEXT_PLAYER_IMAGE_ALT": ""
+};
+
+      // Instantiate the React app to render into the #app div:
+      initOrchestrationTemplate(document.getElementById('app'), config);
+    </script>
+    <noscript>
+      This page requires JavaScript to be enabled.
+    </noscript>
+  </body>
+</html>
