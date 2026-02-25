@@ -1,0 +1,248 @@
+{
+  "duration": 72,
+  "loop": true,
+  "outPoints": [],
+  "objects": [
+    {
+      "objectId": "1-Intro",
+      "objectBehaviours": [
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "spread",
+          "behaviourParameters": {
+            "enableGainCompensation": false
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceCurrentNumber",
+                "operator": "modulo",
+                "value": [
+                  4,
+                  2
+                ],
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 72,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/7eacb6b7-5ad2-40be-8aac-4e9d1d14b3cc/1_Intro_000000/manifest.mpd",
+            "urlSafari": "audio/7eacb6b7-5ad2-40be-8aac-4e9d1d14b3cc/1_Intro_000000/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "2-Intro",
+      "objectBehaviours": [
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "spread",
+          "behaviourParameters": {
+            "enableGainCompensation": false
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceCurrentNumber",
+                "operator": "modulo",
+                "value": [
+                  4,
+                  3
+                ],
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 72,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/7eacb6b7-5ad2-40be-8aac-4e9d1d14b3cc/2_Intro_000000/manifest.mpd",
+            "urlSafari": "audio/7eacb6b7-5ad2-40be-8aac-4e9d1d14b3cc/2_Intro_000000/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "3-Intro",
+      "objectBehaviours": [
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "spread",
+          "behaviourParameters": {
+            "enableGainCompensation": false
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceCurrentNumber",
+                "operator": "modulo",
+                "value": [
+                  4,
+                  3
+                ],
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 72,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/7eacb6b7-5ad2-40be-8aac-4e9d1d14b3cc/3_Intro_000000/manifest.mpd",
+            "urlSafari": "audio/7eacb6b7-5ad2-40be-8aac-4e9d1d14b3cc/3_Intro_000000/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "4-Intro",
+      "objectBehaviours": [
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "spread",
+          "behaviourParameters": {
+            "enableGainCompensation": false
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceCurrentNumber",
+                "operator": "modulo",
+                "value": [
+                  4,
+                  4
+                ],
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 72,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/7eacb6b7-5ad2-40be-8aac-4e9d1d14b3cc/4_Intro_000000/manifest.mpd",
+            "urlSafari": "audio/7eacb6b7-5ad2-40be-8aac-4e9d1d14b3cc/4_Intro_000000/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "5-Intro_Main",
+      "objectBehaviours": [
+        {
+          "behaviourType": "allowedEverywhere"
+        },
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 1.2,
+          "duration": 70.85,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/7eacb6b7-5ad2-40be-8aac-4e9d1d14b3cc/5_Intro_Main_000000/manifest.mpd",
+            "urlSafari": "audio/7eacb6b7-5ad2-40be-8aac-4e9d1d14b3cc/5_Intro_Main_000000/manifest-safari.mpd"
+          }
+        }
+      ]
+    }
+  ]
+}
